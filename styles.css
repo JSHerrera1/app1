@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+}
+.cabeceraprincipal, .menuprincipal, .sliderprincipal, main{
+    background: #ccc;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+}
+.cabeceraprincipal {
+    background-color: #ffff;
+    
+}
+
+.cabeceraprincipal h1{
+    color: #4c99d4;
+    padding: 10px 40px;
+    text-shadow: #ccc 3px 2px 2px;
+}
+.menuprincipal{
+    background-color: bisque;
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+}
+.menuprincipal a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #3a3a3a;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.menuprincipal a:hover{
+    background-color: #edd502;
+    color: #141414;
+    transition: 1s;
+}
+.sliderprincipal img{
+    width: 100%;
+}
+.h2Home{
+text-align: center;
+padding: 2em 0;
+color: coral;
+}
+.menu{
+    text-align: center;
+}
+.menuPlato{
+    width: 32%;
+    background-color: #ededed;
+    border: 1px solid #bbb6b6;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0,0,0.25);
+}
+.menuPlato img{
+    width: 100%;
+}
+.menuPlato h3{
+    padding: 1em 0;
+    text-align: center;
+    color: coral;
+}
+.menuPlato p{
+    padding: 0.2em 1em;
+    font-size: 13px;
+    color: #494848;
+
+}
+.menuPlato button{
+    background-color: #07738a;
+    color: #fff;
+    padding: 0.5em 1em;
+    margin-bottom: 5px;
+}
+ .piepagina{
+     background-color: #2C3A84;
+     color: #c1d0c4;
+ }
+ .piepagina h6{
+     text-align: center;
+     padding: 2em 0;
+ }
+ .menu2{
+    text-align: center;
+ }
+ .menuChef img{
+    width:250px;
+    height:250px;
+    border-radius:150px;
+    
+ }
+ .menuChef h3{
+    
+ }
+ @media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .menuPlato{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+  }
